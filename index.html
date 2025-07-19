@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amogh Sunil - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="paper"></div>
+    <div class="glow"></div>
+    
+    <header>
+        <h1 class="typewriter">Amogh Sunil</h1>
+        <p class="subtitle">AI Enthusiast • Full Stack Developer • DevOps Engineer</p>
+        <p class="bio">AI enthusiast blending artificial intelligence, design, DevOps, and cybersecurity to build intelligent, secure, and visually compelling solutions. I focus on crafting AI-powered products, leveraging creative design, automating infrastructure, and hardening systems against threats.</p>
+        
+        <div class="contact-links">
+            <a href="mailto:contact.amoghsunil@gmail.com">📧 Contact Me</a>
+            <a href="https://linkedin.com/in/amoghsunil" target="_blank">💼 LinkedIn</a>
+            <a href="https://github.com/stealthwhizz" target="_blank">🔗 GitHub</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="quote">
+            "Where technology meets creativity, that's where I build."
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-tags">
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">TypeScript</div>
+                    <div class="skill-tag">C/C++</div>
+                    <div class="skill-tag">Java</div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <div class="skill-tags">
+                    <div class="skill-tag">Next.js</div>
+                    <div class="skill-tag">React</div>
+                    <div class="skill-tag">T3 Stack</div>
+                    <div class="skill-tag">MERN Stack</div>
+                    <div class="skill-tag">Bun</div>
+                    <div class="skill-tag">PostgreSQL</div>
+                    <div class="skill-tag">TailwindCSS</div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>DevOps & Tools</h3>
+                <div class="skill-tags">
+                    <div class="skill-tag">Docker/Podman</div>
+                    <div class="skill-tag">Kubernetes</div>
+                    <div class="skill-tag">Terraform</div>
+                    <div class="skill-tag">AWS</div>
+                    <div class="skill-tag">Azure</div>
+                    <div class="skill-tag">GCP</div>
+                    <div class="skill-tag">Git</div>
+                    <div class="skill-tag">Bash</div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3>AI & Specializations</h3>
+                <div class="skill-tags">
+                    <div class="skill-tag">LangChain</div>
+                    <div class="skill-tag">VectorDB</div>
+                    <div class="skill-tag">MediaPipe</div>
+                    <div class="skill-tag">OpenCV</div>
+                    <div class="skill-tag">Cryptography</div>
+                    <div class="skill-tag">DSA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Featured Projects</h2>
+        
+        <div class="project" onclick="toggleProject(this)">
+            <div class="project-header">
+                <div>
+                    <div class="project-title">
+                        whizz.ai - AI Knowledge Engine
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="project-tech">LangChain, VectorDB, Next.js</div>
+                </div>
+            </div>
+            <div class="project-content">
+                <ul class="project-details">
+                    <li>Built a secure SaaS AI knowledge engine with RAG (Retrieval-Augmented Generation) system</li>
+                    <li>Enables enterprises to query internal documents through private ChatGPT-like interface</li>
+                    <li>Integrated vector database for semantic search and LangChain for AI orchestration</li>
+                    <li><a href="https://github.com/stealthwhizz/whizz.ai" class="github-link" target="_blank">View on GitHub →</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project" onclick="toggleProject(this)">
+            <div class="project-header">
+                <div>
+                    <div class="project-title">
+                        id.card - Dynamic Business Card Generator
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="project-tech">Next.js, Vite, React</div>
+                </div>
+            </div>
+            <div class="project-content">
+                <ul class="project-details">
+                    <li>Developed a dynamic web application for real-time business card design and generation</li>
+                    <li>Built responsive UI with modern React patterns and optimized performance</li>
+                    <li>Implemented live preview and customization features</li>
+                    <li><a href="https://github.com/stealthwhizz/id.card" class="github-link" target="_blank">View on GitHub →</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project" onclick="toggleProject(this)">
+            <div class="project-header">
+                <div>
+                    <div class="project-title">
+                        Hand-Sign Detection System
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="project-tech">MediaPipe, OpenCV, NumPy</div>
+                </div>
+            </div>
+            <div class="project-content">
+                <ul class="project-details">
+                    <li>Developed real-time deep learning system for hand gesture recognition</li>
+                    <li>Implemented computer vision pipeline using OpenCV and MediaPipe</li>
+                    <li>Enabled applications like sign language interpretation and gesture-based controls</li>
+                    <li><a href="https://github.com/stealthwhizz/Hand-Sign-Detection" class="github-link" target="_blank">View on GitHub →</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project" onclick="toggleProject(this)">
+            <div class="project-header">
+                <div>
+                    <div class="project-title">
+                        Prime-Listing Real Estate Platform
+                        <span class="expand-icon">+</span>
+                    </div>
+                    <div class="project-tech">MERN Stack, MongoDB, Express.js</div>
+                </div>
+            </div>
+            <div class="project-content">
+                <ul class="project-details">
+                    <li>Developed interactive real-estate management website using MERN stack</li>
+                    <li>Built comprehensive property listing and management system</li>
+                    <li>Implemented user authentication, search, and filtering capabilities</li>
+                    <li><a href="https://github.com/stealthwhizz/prime-listing" class="github-link" target="_blank">View on GitHub →</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>DevOps Intern</h3>
+            <div class="company">LaunchED Global • Bengaluru, India</div>
+            <div class="date">August 2025</div>
+            <p>Completed comprehensive DevOps internship focusing on CI/CD pipelines, cloud infrastructure (AWS, Azure, GCP), Infrastructure as Code (Terraform), Kubernetes, and AI-powered automation. Successfully delivered multiple real-world deployment projects.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>BTech in Computer Science Engineering</h3>
+            <div class="institution">PES University, Bengaluru</div>
+            <div class="details">2023 - Present</div>
+        </div>
+        
+        <div class="education-item">
+            <h3>Pre-University College (PUC)</h3>
+            <div class="institution">IMSC Institute, Mysuru</div>
+            <div class="details">2023 • 94% (PCMC)</div>
+        </div>
+        
+        <div class="education-item">
+            <h3>High School (CBSE)</h3>
+            <div class="institution">St. Joseph's Central School, Mysuru</div>
+            <div class="details">2021 • 96%</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Interests & Hobbies</h2>
+        <div class="hobbies-grid">
+            <div class="hobby-item">
+                <div class="icon">📚</div>
+                <h4>Reading</h4>
+                <p>Fiction, geopolitics, self-help, finance</p>
+            </div>
+            <div class="hobby-item">
+                <div class="icon">🎮</div>
+                <h4>Gaming</h4>
+                <p>Minecraft, Terraria, GTA, Valorant</p>
+            </div>
+            <div class="hobby-item">
+                <div class="icon">💻</div>
+                <h4>Problem Solving</h4>
+                <p>50+ DSA problems solved</p>
+            </div>
+            <div class="hobby-item">
+                <div class="icon">🔐</div>
+                <h4>Cybersecurity</h4>
+                <p>Cryptography & system hardening</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
